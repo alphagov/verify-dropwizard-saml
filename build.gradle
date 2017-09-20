@@ -19,7 +19,7 @@ dependencies {
             'javax.validation:validation-api:1.1.0.Final',
             'com.fasterxml.jackson.core:jackson-annotations:2.7.9',
             'javax.inject:javax.inject:1',
-            "io.dropwizard:dropwizard-servlets:1.0.9",
+            "io.dropwizard:dropwizard-servlets:1.1.4",
             'com.hubspot.dropwizard:dropwizard-guicier:1.0.0.6',
             'net.shibboleth.utilities:java-support:7.2.0',
             "org.opensaml:opensaml-saml-api:$opensaml_version",
