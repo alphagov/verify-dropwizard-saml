@@ -21,7 +21,7 @@ dependencies {
             "io.dropwizard:dropwizard-servlets:1.1.4",
             'net.shibboleth.utilities:java-support:7.2.0',
             "org.opensaml:opensaml-saml-api:$opensaml_version",
-            'com.codahale.metrics:metrics-healthchecks:3.0.2'
+            'io.dropwizard.metrics:metrics-healthchecks:3.2.2'
 
     testCompile 'junit:junit:4.11',
             'org.assertj:assertj-core:1.6.0',
