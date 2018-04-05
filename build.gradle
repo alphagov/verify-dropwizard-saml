@@ -8,6 +8,7 @@ repositories {
 
 ext {
     opensaml_version = '3.3.0'
+    saml_libs = "$opensaml_version-103"
 }
 
 group = "uk.gov.ida"
@@ -28,7 +29,7 @@ dependencies {
     testCompile 'junit:junit:4.11',
         'org.assertj:assertj-core:1.6.0',
         'net.shibboleth.utilities:java-support:7.2.0',
-        "uk.gov.ida:saml-metadata-bindings-test:$opensaml_version-43"
+        "uk.gov.ida:saml-metadata-bindings-test:$saml_libs"
 }
 
 apply plugin: 'maven-publish'
